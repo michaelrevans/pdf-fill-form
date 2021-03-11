@@ -26,7 +26,7 @@
                 'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
                 "OTHER_CFLAGS": [
                     '-mmacosx-version-min=10.11',
-                    '-std=c++11',
+                    '-std=c++14',
                     '-stdlib=libc++',                
                     "-fexceptions",
                     "<!@(pkg-config --cflags <(osLibraries) <(myLibraries))"
